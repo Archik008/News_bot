@@ -18,7 +18,7 @@ with open('data.json', 'r', encoding='utf-8') as file:
 
 news_descriptions = list(data.keys())
 
-API_TOKEN = '6287021376:AAElQ4_lTq5o7Had1Gdbg0hjlMeN-g4tV-A'
+API_TOKEN = ''
 
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
